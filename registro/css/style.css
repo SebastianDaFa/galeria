@@ -1,0 +1,610 @@
+
+#contenedorsuphead{
+    height: 200px;
+    background-color: #8f0217;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+}
+#contenedornavegacionhead{
+    height: 40px;
+    background-color:   #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navshead{
+    display: flex;
+    margin: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+#inicio{
+    border-top: 3px solid #8f0217;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 303px;
+    height: 60px;
+    background-color: #f6f6f6;
+}
+th{
+    background-color: #8f0217;
+    color: white;
+}
+#esquinasupiqz{
+    border-radius: 20px 0px 0px 0px;
+}
+#esquinasupder{
+    border-radius: 0px 20px 0px 0px;
+}
+#esquinainfizq{
+    border-radius: 0px 0px 0px 20px;
+}
+#esquinainfder{
+    border-radius: 0px 0px 20px 0px;
+}
+#eventos{
+    font-family: 'Pacifico', cursive;
+}
+img{
+    height: 30px;
+}
+
+#contgrande{
+    height: auto;
+    width: 100%;
+    background-image: url("/registro/img/colagepinturas.jpg");
+    background-size: cover;
+    display: flex;
+}
+#contcalendario{
+
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+#contgrandecal{
+    height: 400px;
+    width: 70%;
+    border-radius: 20px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#contgrandeform{
+    height: 400px;
+    width:30%;
+    border-radius: 20px;
+    margin: 50px;
+    text-align: center;
+}
+#contform{
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    height: 580px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    font-size: 25px;
+    height: 30px;
+    padding: 5px;
+    border: 1px #d3d6e4 solid;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+#fecha{
+    color: #757575;
+}
+button{
+    color: #8f0217;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #d3d6e4 solid;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.15);
+}
+
+
+#titulo{
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+#contgrandeclaro{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(240, 248, 255, 0.4);
+    background-size: cover;
+    display: flex;
+}
+
+
+footer{
+    margin-top: 60px;
+    height: 100px;
+    background-color: #8f0217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+#contenedorinfofoot{
+    color: white;
+    margin: 20px;
+    display: flex;
+}
+
+#inputinfor{
+    margin-left: 20px;
+   font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 0px;
+}
+#o{
+    margin-left: 50px;
+}
+#contactanos{
+    color: white;
+    margin-left: 10px;
+}
+#contactanos:hover{
+    color: rgb(196, 196, 196);
+}   
+@media screen  and (min-width: 280px) and (max-width: 490px) {
+    
+
+    #contenedorsuphead{
+        height: 150px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #contgrande{
+        height: auto;
+    }
+    #contgrandeclaro{
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        display: block;
+    }
+    #contgrandecal{
+        height: auto;
+    }
+    #img{
+        background-image: url("/registro/img/calendario.png");
+        background-size: cover;
+        height: 0px;
+        width: 0px;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 0px;
+        font-size: 8px;
+        text-align: center;
+        height: 10px;
+        background-color: #f6f6f6;
+    }
+
+    th{
+        height: 10px;
+       font-size: 8px;
+        background-color: #8f0217;
+        color: white;
+    }
+    #contgrandeform{
+        width: 70%;
+        height: auto;
+    }
+    #contform{
+        height: auto;
+    }
+    input{
+        
+        font-size: 10px;
+    }
+    button{
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    footer{
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 491px) and (max-width: 570px) {
+    
+
+    #contenedorsuphead{
+        height: 150px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 25px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #contgrandeclaro{
+        display: block;
+        height: auto;
+    }
+    #contgrandecal{
+        
+        height: auto;
+    }
+    td{
+        font-size: 12px;
+    }
+    tr{
+        height: 30px;
+        font-size: 12px;
+    }
+    table{
+        width:auto;
+    }
+    #contgrandeform{
+        width: 70%;
+        height: auto;
+    }
+    #contform{
+        height: auto;
+    }
+    
+    input{
+        
+        font-size: 15px;
+    }
+    button{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    footer{
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 571px) and (max-width: 890px){
+    
+
+    
+    #contenedorsuphead{
+        height: 150px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 25px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #contgrandeclaro{
+        display: block;
+        height: auto;
+    }
+    #contgrandecal{
+        width: 85%;
+        height: auto;
+    }
+    td{
+        font-size: 12px;
+    }
+    tr{
+        height: 30px;
+        font-size: 12px;
+    }
+    table{
+        width:auto;
+    }
+    #contgrandeform{
+        width: 85%;
+        height: auto;
+    }
+    #contform{
+        height: auto;
+    }
+    
+    input{
+        
+        font-size: 15px;
+    }
+    button{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    footer{
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 891px) and (max-width: 1123px) {
+    #contenedorsuphead{
+        height: 150px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 25px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #contgrandeclaro{
+        display: block;
+        height: auto;
+    }
+    #contgrandecal{
+        width: 85%;
+        height: auto;
+    }
+    td{
+        font-size: 12px;
+    }
+    tr{
+        height: 30px;
+        font-size: 12px;
+    }
+    table{
+        width:auto;
+    }
+    #contgrandeform{
+        width: 85%;
+        height: auto;
+    }
+    #contform{
+        height: auto;
+    }
+    
+    input{
+        
+        font-size: 15px;
+    }
+    button{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    footer{
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}

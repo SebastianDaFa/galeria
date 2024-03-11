@@ -1,0 +1,1195 @@
+
+#contenedorsuphead{
+    height: 200px;
+    background-color: #8f0217;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+}
+#contenedornavegacionhead{
+    height: 40px;
+    background-color:   #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navshead{
+    display: flex;
+    margin: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+#inicio{
+    border-top: 3px solid #8f0217;
+}
+#imgfondo{
+    background-image: url("../img/colagepinturas.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contenedorquienessomos{
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+#quienessomos{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: #8f0217;
+    margin-top: 60px;
+}
+#bienvenidos{
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+}
+#contenedorbienvenidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#contenedormasinfo{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+}
+.navshead:hover{
+    color: #8f0217;
+}
+#masinfoquienessomos:hover{
+    color: #8f0217;
+}
+#contenedorexhibiciones{
+    height: 500px;
+    background-image: url("../img/pinturaexibi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#exhibiciones{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    text-decoration: none;
+}
+#contenedorexhibiciones2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+#contenedorexhibiciones2:hover{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#contenedoreventos{
+    height: 700px;
+}
+.eventos{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+}
+#contenedoreventos{
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.contenedoreseventos{
+    margin: 20px;
+    height: 600px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    
+}
+#imgeventos{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#eventotitulo{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
+}
+#eventotexto{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#contenedorinfo{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#imginfo{
+    height: 30px;
+}
+#textoinfo{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    color: black;
+}
+#contmasinfoeventos{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+#masinfoeventos:hover{
+    color: #8f0217;
+}
+#contenedorartistas{
+    height: 500px;
+    background-color: rgb(78, 102, 102);
+    display: flex;
+}
+#imagenesartistas{
+    height: 500px; 
+}
+#contenedorartistas{
+    height: 500px;
+    background-image: url("../img/colagepinturas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#artista{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    text-decoration: none;
+}
+#contenedorartistas2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+#contenedorartistas2:hover{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+footer{
+    margin-top: 60px;
+    height: 100px;
+    background-color: #8f0217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+#contenedorinfofoot{
+    color: white;
+    margin: 20px;
+}
+
+#inputinfor{
+    margin-left: 20px;
+    width: 600px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 0px;
+}
+#o{
+    margin-left: 50px;
+}
+#contactanos{
+    color: white;
+    margin-left: 10px;
+}
+#contactanos:hover{
+    color: rgb(196, 196, 196);
+}   
+@media screen  and (min-width: 280px) and (max-width: 490px) {
+    
+
+    #contenedorsuphead{
+        height: 150px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 6px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #imgfondo{
+        background-image: url("../img/colagepinturas.jpg");
+        background-size: cover;
+        opacity: 1;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contenedorquienessomos{
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+    #quienessomos{
+        font-size: 28px;
+        font-family: 'Pacifico', cursive;
+        color: #8f0217;
+        margin-top: 40px;
+    }
+    #bienvenidos{
+        font-size: 12px;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+    #contenedorbienvenidos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #contenedormasinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 50px;
+    }
+    .navshead:hover{
+        color: #8f0217;
+    }
+    #masinfoquienessomos:hover{
+        color: #8f0217;
+    }
+    #contenedorexhibiciones{
+        height: 500px;
+        background-image: url("../img/pinturaexibi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #exhibiciones{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorexhibiciones2{
+        height: 5   00px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    #contenedorexhibiciones2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedoreventos{
+        height: 700px;
+    }
+    .eventos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    #contenedoreventos{
+        display: inline-block;
+    
+    }
+    .contenedoreseventos{
+        width: 90%;
+        margin: 20px;
+        height: 470px;
+        background-color: #f6f6f6;
+        border-radius: 20px;
+        
+    }
+    #imgeventos{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #eventotitulo{
+        font-size: 24px;
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px;
+    }
+    #eventotexto{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #contenedorinfo{
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #imginfo{
+        height: 25px;
+    }
+    #textoinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 10px;
+        color: black;
+        font-size: 15px;
+    }
+    #contmasinfoeventos{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #masinfoeventos:hover{
+        color: #8f0217;
+    }
+    #contenedorartistas{
+        height: 500px;
+        background-color: rgb(78, 102, 102);
+        display: flex;
+    }
+    #imagenesartistas{
+        height: 500px; 
+    }
+    #contenedorartistas{
+        margin-top: 60px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #artista{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorartistas2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedorartistas2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    footer{
+        margin-top: 60px;
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 491px) and (max-width: 570px) {
+    
+
+    #contenedorsuphead{
+        height: 100px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #imgfondo{
+        background-image: url("../img/colagepinturas.jpg");
+        background-size: cover;
+        opacity: 1;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contenedorquienessomos{
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+    #quienessomos{
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        color: #8f0217;
+        margin-top: 40px;
+    }
+    #bienvenidos{
+        font-size: 13px;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+    #contenedorbienvenidos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #contenedormasinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 100px;
+    }
+    .navshead:hover{
+        color: #8f0217;
+    }
+    #masinfoquienessomos:hover{
+        color: #8f0217;
+    }
+    #contenedorexhibiciones{
+        height: 500px;
+        background-image: url("../img/pinturaexibi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #exhibiciones{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorexhibiciones2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    #contenedorexhibiciones2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedoreventos{
+        height: 700px;
+    }
+    .eventos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    #contenedoreventos{
+        display: inline-block;
+    
+    }
+    .contenedoreseventos{
+        width: 90%;
+        margin: 20px;
+        height: 600px;
+        background-color: #f6f6f6;
+        border-radius: 20px;
+        
+    }
+    #imgeventos{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #eventotitulo{
+        font-size: 24px;
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px;
+    }
+    #eventotexto{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #contenedorinfo{
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #imginfo{
+        height: 25px;
+    }
+    #textoinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 10px;
+        color: black;
+        font-size: 15px;
+    }
+    #contmasinfoeventos{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #masinfoeventos:hover{
+        color: #8f0217;
+    }
+    #contenedorartistas{
+        height: 500px;
+        background-color: rgb(78, 102, 102);
+        display: flex;
+    }
+    #imagenesartistas{
+        height: 500px; 
+    }
+    #contenedorartistas{
+        margin-top: 120px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #artista{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorartistas2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedorartistas2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    footer{
+        margin-top: 60px;
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 571px) and (max-width: 890px) {
+    
+
+    #contenedorsuphead{
+        height: 200px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 80px;
+    }
+    #contenedornavegacionhead{
+        height: 20px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        font-size: 10px;
+        display: flex;
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 2px solid #8f0217;
+    }
+    #imgfondo{
+        background-image: url("../img/colagepinturas.jpg");
+        background-size: cover;
+        opacity: 1;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contenedorquienessomos{
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+    #quienessomos{
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+        color: #8f0217;
+        margin-top: 40px;
+    }
+    #bienvenidos{
+        font-size: 15px;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+    #contenedorbienvenidos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #contenedormasinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+    }
+    .navshead:hover{
+        color: #8f0217;
+    }
+    #masinfoquienessomos:hover{
+        color: #8f0217;
+    }
+    #contenedorexhibiciones{
+        height: 500px;
+        background-image: url("../img/pinturaexibi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #exhibiciones{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorexhibiciones2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    #contenedorexhibiciones2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedoreventos{
+        height: 600px;
+    }
+    .eventos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    #contenedoreventos{
+        display: inline-block;
+    
+    }
+    .contenedoreseventos{
+        width:95%;
+        margin: 20px;
+        height: 700px;
+        background-color: #f6f6f6;
+        border-radius: 20px;
+        
+    }
+    #imgeventos{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #eventotitulo{
+        font-size: 24px;
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px;
+    }
+    #eventotexto{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #contenedorinfo{
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #imginfo{
+        height: 25px;
+    }
+    #textoinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 10px;
+        color: black;
+        font-size: 15px;
+    }
+    #contmasinfoeventos{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #masinfoeventos:hover{
+        color: #8f0217;
+    }
+    #contenedorartistas{
+        height: 500px;
+        background-color: rgb(78, 102, 102);
+        display: flex;
+    }
+    #imagenesartistas{
+        height: 500px; 
+    }
+    #contenedorartistas{
+        margin-top: 240px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #artista{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorartistas2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedorartistas2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    footer{
+        margin-top: 60px;
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}
+@media screen  and (min-width: 891px) {
+    #contenedorsuphead{
+        height: 200px;
+        background-color: #8f0217;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 90px;
+    }
+    #contenedornavegacionhead{
+        height: 40px;
+        background-color:   #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .navshead{
+        display: flex;
+        margin: 50px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    #inicio{
+        border-top: 3px solid #8f0217;
+    }
+    #imgfondo{
+        background-image: url("../img/colagepinturas.jpg");
+        background-size: cover;
+        opacity: 1;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contenedorquienessomos{
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+    #quienessomos{
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+        color: #8f0217;
+        margin-top: 60px;
+    }
+    #bienvenidos{
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+    #contenedorbienvenidos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    #contenedormasinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 100px;
+    }
+    .navshead:hover{
+        color: #8f0217;
+    }
+    #masinfoquienessomos:hover{
+        color: #8f0217;
+    }
+    #contenedorexhibiciones{
+        height: 500px;
+        background-image: url("../img/pinturaexibi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #exhibiciones{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorexhibiciones2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    #contenedorexhibiciones2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedoreventos{
+        height: 700px;
+    }
+    .eventos{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-family: 'Pacifico', cursive;
+    }
+    #contenedoreventos{
+        display: inline-flex;
+        justify-content: space-around;
+    
+    }
+    .contenedoreseventos{
+        margin: 20px;
+        height: 600px;
+        background-color: #f6f6f6;
+        border-radius: 20px;
+        
+    }
+    #imgeventos{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #eventotitulo{
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px;
+    }
+    #eventotexto{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    #contenedorinfo{
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #imginfo{
+        height: 30px;
+    }
+    #textoinfo{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 10px;
+        color: black;
+    }
+    #contmasinfoeventos{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #masinfoeventos:hover{
+        color: #8f0217;
+    }
+    #contenedorartistas{
+        height: 500px;
+        background-color: rgb(78, 102, 102);
+        display: flex;
+    }
+    #imagenesartistas{
+        height: 500px; 
+    }
+    #contenedorartistas{
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #artista{
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #contenedorartistas2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    #contenedorartistas2:hover{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    footer{
+        margin-top: 60px;
+        height: 100px;
+        background-color: #8f0217;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+
+    }
+    #contenedorinfofoot{
+        color: white;
+        margin: 20px;
+        display: inline;
+        text-align: center;
+    }
+    
+    #inputinfor{
+        margin-top: 10PX;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 2px;
+        border: 0px;
+        text-align: center;
+    }
+    #o{
+        margin-left: 10px;
+    }
+    #contactanos{
+        color: white;
+        margin-left: 5px;
+    }
+    #contactanos:hover{
+        color: rgb(196, 196, 196);
+    }
+}  
